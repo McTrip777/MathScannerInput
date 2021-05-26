@@ -29,11 +29,10 @@ public class MathMethods {
 	}
 
 	
-	public static float div(float a, float b) throws ArithmeticException{
+	public static float div(float a, float b) throws ArithmeticException, Exception{
 		try {			
 			int i = (int)a/(int)b;
 			return a/b;
-//			throw new IllegalArgumentException("Value must be above zero");
 		}catch(ArithmeticException e) {
 			System.out.println(e.getMessage());
 		}

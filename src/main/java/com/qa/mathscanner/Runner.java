@@ -18,7 +18,7 @@ public class Runner {
 					+ "4: multiply\n\t"
 					+ "5: Exit Application");
 			int result = Integer.parseInt(scan.nextLine()); // "1" -> 1
-//			
+			
 			switch(result) {
 				case 1:
 					logs("add");

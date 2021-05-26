@@ -1,7 +1,5 @@
 package com.qa.mathscanner.math;
 
-import com.qa.mathscanner.exceptions.Exceptions;
-
 public class MathMethods {
 
 	public static float swch(String method, int a,int b) {
